@@ -1,10 +1,17 @@
 {
   "name": "currency-format-symbol",
-  "version": "1.0.0",
-  "description": "currency format symbol",
+  "version": "1.0.4",
+  "description": "Simplify currency formating by adding symbols to numeric values effortlessly.",
+  "keywords": [
+    "currency",
+    "format",
+    "symbol",
+    "currency format",
+    "currency symbol"
+  ],
   "author": "sencerarslan",
   "license": "MIT",
-  "repository": "sencerarslan/currency-format-symbol",
+  "repository": "sencerarslan/currency-format-symbol-library",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

@@ -1,10 +1,12 @@
 import React from 'react'
-
-import { ExampleComponent } from 'currency-format-symbol'
-import 'currency-format-symbol/dist/index.css'
+import { CurrencyFormat } from 'currency-format-symbol'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <>
+  <CurrencyFormat amount="1234567.89" />
+  <CurrencyFormat amount="1234567.89" locale="tr-TR" currency="TRY" currencyDisplay="symbol"/>
+  </>
 }
 
 export default App
+
